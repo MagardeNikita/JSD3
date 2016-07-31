@@ -58,7 +58,7 @@ d3.json("result1.json", function(error, data){
           'width' : xScale.rangeBand(),
           'height' : function(d){  return height - yScale(d.total);}
       })
-      .style("fill",function(d,i){ return 'rgb(30,30,' + ((i * 30) + 200) +')'});
+      .style("fill",function(d,i){ return 'rgb(255,255,0)'});
 
 // label the bars
   svg.selectAll('text')
